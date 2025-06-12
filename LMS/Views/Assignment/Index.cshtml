@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+    </div>
+    @{ 
+        int sum = 0;
+        foreach(int i in ViewBag.Data)
+        {
+            sum = sum + i;
+        }
+        <div>Sum is @sum</div>
+    }
+
+    
+    
+
+
+</body>
+</html>

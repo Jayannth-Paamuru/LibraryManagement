@@ -1,0 +1,17 @@
+﻿@model List<LMS.Models.BorrowTransaction>
+@{
+    ViewBag.Title = "returndate";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<form method="post">
+    <input type="date" name="rdate" />
+    <input type="submit" value="Return" />
+</form>
+@if (ViewBag.fine != null)
+{
+    <p>Due Date: @ViewBag.duedate</p>
+    <p>Return Date: @ViewBag.rdate</p>
+    <p>Fine is @ViewBag.fine</p>
+}
+

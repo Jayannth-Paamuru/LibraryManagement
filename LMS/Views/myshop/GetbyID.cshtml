@@ -1,0 +1,46 @@
+﻿@model LMS.Models.product
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetbyID</title>
+</head>
+<body>
+    @*<div>
+        @{ 
+            if(Model!= null)
+            {
+                @Model.pid;
+                @Model.pname;
+                @Model.description;
+                @Model.price
+            }
+        }
+
+    </div>*@
+
+    <div>
+        <form method="post">
+            <input type="text" name="id" />
+            <input type="submit" value="getbyid" />
+        </form>
+        @{
+            if (Model != null)
+            {
+                @Model.pid;
+                @Model.pname;
+                @Model.description;
+                @Model.price
+            }
+
+            @Model
+        }
+    </div>
+</body>
+</html>

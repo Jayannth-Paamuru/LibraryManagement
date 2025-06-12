@@ -1,0 +1,82 @@
+﻿@model LMS.Models.product
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+</head>
+<body>
+    <div>
+        <form method="post">
+            @*Enter Id : <input type="text" name="pid" /><br />
+            Enter Nmae : <input type="text" name="pname" /><br />
+            Enter price : <input type="text" name="price" /><br />
+            Enter Description : <input type="text" name="description" /><br />
+            Image url : <input type="text" name="pimgage" /><br />
+            <input type="submit" value="ADD" /><br />*@
+
+
+
+
+            @*Enter Id : @Html.TextBox("pid")<br />
+            Enter Nmae : @Html.TextBox("pname")<br />
+            Enter price : @Html.TextBox("price")<br />
+            Enter Description : @Html.TextBox("description")<br />
+            Image url : @Html.TextBox("pimgage")<br />
+            <input type="submit" value="ADD" /><br />*@
+            <p style="color:red">@Html.ValidationMessageFor(c => c.pid)</p>
+            Enter Id : @Html.TextBoxFor(c => c.pid)
+            <br />
+            <p style="color:red">
+                @Html.ValidationMessageFor(c => c.pname)
+            </p>
+            Enter Nmae : @Html.TextBoxFor(c => c.pname)
+            <br />
+            <p style="color:red">
+                @Html.ValidationMessageFor(c => c.price)
+            </p>
+            Enter price : @Html.EditorFor(c => c.price)
+            <br />
+            <p style="color:red">
+                @Html.ValidationMessageFor(c => c.description)
+            </p>
+            Enter Description : @Html.TextBoxFor(c => c.description)
+            <br />
+            <p style="color:red">
+                @Html.ValidationMessageFor(c => c.pimage)
+            </p>
+            Image url : @Html.TextBoxFor(c => c.pimage)
+            <br />
+
+            <input type="submit" value="ADD" /><br />
+
+        </form>
+
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <!-- jQuery Validation Plugin -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+        <!-- jQuery Unobtrusive Validation
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <!-- jQuery Validation Plugin -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+        <!-- jQuery Unobtrusive Validation-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+
+              <h1> Total number of rows added is : @ViewBag.NO</h1>
+          </div>
+      </body>
+      </html>

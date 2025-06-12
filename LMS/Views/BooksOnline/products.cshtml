@@ -1,0 +1,36 @@
+﻿@model List<LMS.Models.Book>
+@{
+    ViewBag.Title = "products";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>products</h2>
+<form class="d-flex mb-4" method="post">
+    <input class="form-control me-2" type="text" placeholder="Search" name="search">
+    <button class="btn btn-primary" type="submit">Search</button>
+</form>
+
+<div class="row">
+    @foreach (var i in Model)
+    {
+        <div class="col-md-4 col-sm-6 col-12">
+            <div class="card">
+                <div class="card-body">
+                    <img src="/@i.bookimage" height="300" width="300" />
+                    <p class="card-text">@i.BookID</p>
+                    <p class="card-text">@i.Title</p>
+                    <p class="card-text">@i.Author</p>
+                    <p class="card-text">@i.Category</p>
+                    <p class="card-text">@i.PublishedYear</p>
+                    <p class="card-text">@i.TotalCopies</p>
+                    <a href="Buy?BookId=@i.BookID" class="card-link btn">Take</a>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+

@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>getnum</title>
+</head>
+<body>
+    <div>
+        <form method="post">
+            <input type="text" name="t1" />
+            <input type="submit" value="print" />
+        </form>
+        @{
+            if (@ViewData["print"] != null)
+            {
+                for (int i = 0; i < (int)@ViewData["print"]; i++)
+                {
+                <div>@ViewBag.Name</div>
+                }
+            }
+         }
+
+
+
+
+
+    </div>
+</body>
+</html>

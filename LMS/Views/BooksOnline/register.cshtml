@@ -1,0 +1,38 @@
+﻿@model LMS.Models.Member
+@{
+    ViewBag.Title = "register";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Register</h2>
+<form method="post">
+    <div style="margin-left:200px;width:500px">
+        @using (Html.BeginForm(null, null, FormMethod.Post))
+        {
+            @Html.LabelFor(c => c.uname, "username")
+            @Html.TextBoxFor(c => c.uname, new { @class = "form-control" })
+
+            @Html.LabelFor(c => c.pwd, "password")
+            @Html.TextBoxFor(c => c.pwd, new { @class = "form-control", @type = "password" })
+
+
+            @Html.LabelFor(c => c.FullName, "FullName")
+            @Html.TextBoxFor(c => c.FullName, new { @class = "form-control" })
+
+
+            @Html.LabelFor(c => c.Email, "Email")
+            @Html.TextBoxFor(c => c.Email, new { @class = "form-control" })
+
+
+            @Html.LabelFor(c => c.Phone, "phone")
+            @Html.TextBoxFor(c => c.Phone, new { @class = "form-control" })
+
+
+
+            <input type="submit" value="Register" class="btn btn-primary" />   
+        }
+
+        
+        <div>No of users registered is @ViewBag.NO</div>
+    </div>
+</form>

@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\lms\\views\\booksonline\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|solutionrelative:lms\\views\\booksonline\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|c:\\users\\paamuru.jayannth\\source\\repos\\lms\\lms\\controllers\\booksonlinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|solutionrelative:lms\\controllers\\booksonlinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\lms\\views\\booksonline\\returndate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|solutionrelative:lms\\views\\booksonline\\returndate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\lms\\views\\booksonline\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|solutionrelative:lms\\views\\booksonline\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\lms\\views\\booksonline\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|solutionrelative:lms\\views\\booksonline\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\lms\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|solutionrelative:lms\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\lms\\views\\booksonline\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|solutionrelative:lms\\views\\booksonline\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\lms\\views\\booksonline\\buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|solutionrelative:lms\\views\\booksonline\\buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\lms\\controllers\\myshopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|solutionrelative:lms\\controllers\\myshopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\lms\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|solutionrelative:lms\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\lms\\models\\libman.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{85AB8546-BFC3-4182-AC58-FD978795CB40}|LMS\\LMS.csproj|solutionrelative:lms\\models\\libman.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "returndate.cshtml",
+              "DocumentMoniker": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\BooksOnline\\returndate.cshtml",
+              "RelativeDocumentMoniker": "LMS\\Views\\BooksOnline\\returndate.cshtml",
+              "ToolTip": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\BooksOnline\\returndate.cshtml",
+              "RelativeToolTip": "LMS\\Views\\BooksOnline\\returndate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T13:00:20.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\BooksOnline\\Login.cshtml",
+              "RelativeDocumentMoniker": "LMS\\Views\\BooksOnline\\Login.cshtml",
+              "ToolTip": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\BooksOnline\\Login.cshtml",
+              "RelativeToolTip": "LMS\\Views\\BooksOnline\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T07:24:50.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksOnlineController.cs",
+              "DocumentMoniker": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Controllers\\BooksOnlineController.cs",
+              "RelativeDocumentMoniker": "LMS\\Controllers\\BooksOnlineController.cs",
+              "ToolTip": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Controllers\\BooksOnlineController.cs*",
+              "RelativeToolTip": "LMS\\Controllers\\BooksOnlineController.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T07:21:08.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "myshopController.cs",
+              "DocumentMoniker": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Controllers\\myshopController.cs",
+              "RelativeDocumentMoniker": "LMS\\Controllers\\myshopController.cs",
+              "ToolTip": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Controllers\\myshopController.cs",
+              "RelativeToolTip": "LMS\\Controllers\\myshopController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwD0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:58:03.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LIBMAN.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Models\\LIBMAN.edmx",
+              "RelativeDocumentMoniker": "LMS\\Models\\LIBMAN.edmx",
+              "ToolTip": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Models\\LIBMAN.edmx [Diagram1]",
+              "RelativeToolTip": "LMS\\Models\\LIBMAN.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-06-11T09:28:54.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "LMS\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "LMS\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T07:31:05.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "register.cshtml",
+              "DocumentMoniker": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\BooksOnline\\register.cshtml",
+              "RelativeDocumentMoniker": "LMS\\Views\\BooksOnline\\register.cshtml",
+              "ToolTip": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\BooksOnline\\register.cshtml",
+              "RelativeToolTip": "LMS\\Views\\BooksOnline\\register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T07:29:25.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Buy.cshtml",
+              "DocumentMoniker": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\BooksOnline\\Buy.cshtml",
+              "RelativeDocumentMoniker": "LMS\\Views\\BooksOnline\\Buy.cshtml",
+              "ToolTip": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\BooksOnline\\Buy.cshtml",
+              "RelativeToolTip": "LMS\\Views\\BooksOnline\\Buy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T07:29:14.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "products.cshtml",
+              "DocumentMoniker": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\BooksOnline\\products.cshtml",
+              "RelativeDocumentMoniker": "LMS\\Views\\BooksOnline\\products.cshtml",
+              "ToolTip": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\BooksOnline\\products.cshtml*",
+              "RelativeToolTip": "LMS\\Views\\BooksOnline\\products.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T07:27:07.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\BooksOnline\\Index.cshtml",
+              "RelativeDocumentMoniker": "LMS\\Views\\BooksOnline\\Index.cshtml",
+              "ToolTip": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\BooksOnline\\Index.cshtml",
+              "RelativeToolTip": "LMS\\Views\\BooksOnline\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T07:23:31.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "LMS\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ToolTip": "C:\\Users\\paamuru.jayannth\\source\\repos\\LMS\\LMS\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "LMS\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T07:03:10.567Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

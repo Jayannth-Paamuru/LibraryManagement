@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>cred</title>
+</head>
+<body>
+    <div>
+        <form method="post">
+            <input type=" text" name="user" />
+            <input type="text" name="pass" />
+            <input type="submit" value="login" />
+        </form>
+    </div>
+    @{ if (ViewBag.user != null && ViewBag.pass != null)
+        {
+            if (ViewBag.user == "Admin" && ViewBag.pass == "india123")
+            {
+                <div style="color:forestgreen">Valid User</div>
+            }
+            else
+            {
+                <div style="color:red">Invalid User</div>
+            }
+        }
+
+    }
+
+</body>
+</html>

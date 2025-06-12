@@ -1,0 +1,80 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1>Welcome to Index Page</h1>
+        <hr />
+        <div style="color:tomato">
+            content of Index goes here
+        </div>
+
+        @ViewData["a"]
+        @ViewData["b"]
+        @ViewData["c"] <br />
+
+        @ViewBag.hi;
+        @TempData["t"]<br />
+
+        @{
+            int a = 10;
+            int b = 20;
+            int c = a + b;
+            <div>The sum is @c</div>
+        }
+
+
+        @{
+            if (a > b)
+            {
+                <div> The greatest among @a and @b is @a  </div>
+            }
+
+            else
+            {
+                <div> The greatest among @a and @b is @b  </div>
+            }
+        }
+
+
+        @{ 
+            for(int i = 0;i<10;i++)
+            {
+                <div>@i</div>
+            }
+        }
+
+
+        @{ 
+            int sum = 0;
+            int[] arr = { 10, 20, 30, 40, 50 };
+            foreach(int item in arr)
+            {
+                sum = sum + item;
+            }
+
+            <div>THE SUM OF ARRAY ELEMENTS IS: @sum</div>
+        }
+
+
+
+
+
+
+        @*<nav>
+            <a href="services">Services</a>
+            <a href="aboutus">About us</a>
+        </nav>*@
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿@model LMS.Models.Member
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Login</h2>
+<form method="post">
+    <div style="margin-left:200px;width:500px">
+        @using (Html.BeginForm(null, null, FormMethod.Post))
+        {
+            @Html.LabelFor(c => c.uname, "UserName")
+            @Html.TextBoxFor(c => c.uname, new { @class = "form-control", placeHolder = "Enter your username" })
+            @Html.LabelFor(c => c.pwd, "Password")
+            @Html.TextBoxFor(c => c.pwd, new { @class = "form-control", placeHolder = "Enter your Password", @type = "password" })
+            <input type="submit" value="Login" class="btn btn-primary" />
+        }
+    </div>
+</form>
+
+@if(IsPost && ViewBag.Login==1)
+{
+    <h1 style="color:forestgreen"> Login success </h1>
+}
+
+

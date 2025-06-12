@@ -1,0 +1,61 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UserRegister</title>
+</head>
+<body>
+    <div>
+    </div>
+    <form method="post">
+
+        Enter EmpID <input type="text" name="empid" /><br />
+
+        Enter EmpName <input type="text" name="empname" /><br />
+
+        Enter EmpDOB <input type="date" name="dob" /><br />
+
+        Male <input type="radio" name="gender" value="male" />
+
+        FeMale <input type="radio" name="gender" value="female" /><br />
+
+        Nationality<select name="nation">
+            <option value="India">India</option>
+            <option value="Russia">Russia</option>
+            <option value="America">America</option>
+            <option value="England">England</option>
+            <option value="Canada">Canada</option>
+            <option value="Japan">Japan</option>
+        </select>
+        <input type="submit" value="Register" />
+    </form>
+
+    @{
+
+        if (ViewBag.nation != null)
+
+        {
+            <div>
+                <h4>EmpID: @ViewBag.eid</h4>
+                <h4>EmpName: @ViewBag.ename</h4>
+                <h4>EmpDOB: @ViewBag.dob</h4>
+                <h4>EmpGender: @ViewBag.gender</h4>
+                <h4>EmpNation: @ViewBag.nation</h4>
+            </div>
+
+        }
+
+    }
+
+    <div>
+        <h4>Name: @ViewBag.name <br /> Age: @ViewBag.age</h4>
+    </div>
+
+</body>
+</html>
